@@ -9,4 +9,10 @@
   grid-template-columns: 1fr 1fr;
   align-content: start;
   gap: 1.6rem;
+  scrollbar-width: none;
 }
+
+.countryList::-webkit-scrollbar {
+  width: 0;
+}
+
