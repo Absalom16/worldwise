@@ -6,7 +6,7 @@ import {
   useReducer,
 } from "react";
 
-const BASE_URL = "http://localhost:8000";
+const BASE_URL = "https://worldwise-server-jwd4.onrender.com";
 
 const CitiesContext = createContext();
 
